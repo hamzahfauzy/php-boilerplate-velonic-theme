@@ -38,6 +38,9 @@
             height: auto;
             max-width: 100%;
         }
+        html[data-sidenav-size=condensed]:not([data-layout=topnav]) .wrapper .leftside-menu .logo, .leftside-menu {
+            background-color: #FFF;
+        }
         </style>
     </head>
 
