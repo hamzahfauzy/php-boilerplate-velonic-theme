@@ -36,7 +36,7 @@
         .logo-lg img {
             max-height: 65px!important;
             height: auto;
-            width: 100%;
+            max-width: 100%;
         }
         </style>
     </head>
