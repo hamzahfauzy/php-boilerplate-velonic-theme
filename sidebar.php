@@ -30,7 +30,7 @@
 
                 <li class="side-nav-title"><?= __($module['moduleName'].'.menu.module_name') ?></li>
 
-                <?php foreach($module['menu'] as $key => $menu): ?>
+                <?php foreach($module['menu'] as $k => $menu): ?>
                     <li class="side-nav-item">
                         <a 
                             class="side-nav-link <?=getActive() == $menu['activeState'] ? 'active' : ''?>"
