@@ -30,7 +30,7 @@
         <script src="<?=asset('theme/assets/js/vendor.min.js')?>"></script>
 
         <!-- Dashboard App js -->
-        <script src="<?=asset('theme/assets/js/pages/dashboard.js')?>"></script>
+        <!-- <script src="<?=asset('theme/assets/js/pages/dashboard.js')?>"></script> -->
 
         <!-- App js -->
         <script src="<?=asset('theme/assets/js/app.min.js')?>"></script>

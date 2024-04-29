@@ -4,7 +4,7 @@
     <!-- Brand Logo Light -->
     <a href="<?=routeTo('/')?>" class="logo logo-light">
         <span class="logo-lg">
-            <img src="<?=env('APP_LOGO', asset('theme/assets/images/logo.png"'))?>" alt="logo">
+            <img src="<?=env('APP_SIDEBAR_LOGO', asset('theme/assets/images/logo.png"'))?>" alt="logo">
         </span>
         <span class="logo-sm">
             <img src="<?=env('APP_LOGO', asset('theme/assets/images/logo-sm.png'))?>" alt="small logo">
@@ -14,7 +14,7 @@
     <!-- Brand Logo Dark -->
     <a href="<?=routeTo('/')?>" class="logo logo-dark">
         <span class="logo-lg">
-            <img src="<?=env('APP_LOGO',asset('theme/assets/images/logo-dark.png'))?>" alt="dark logo">
+            <img src="<?=env('APP_SIDEBAR_LOGO',asset('theme/assets/images/logo-dark.png'))?>" alt="dark logo">
         </span>
         <span class="logo-sm">
             <img src="<?=env('APP_LOGO',asset('theme/assets/images/logo-sm.png'))?>" alt="small logo">
