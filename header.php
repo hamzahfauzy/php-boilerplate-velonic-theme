@@ -8,7 +8,7 @@
         <!-- <meta content="" name="description" /> -->
 
         <!-- App favicon -->
-        <link rel="shortcut icon" href="<?=asset('theme/assets/images/favicon.ico')?>">
+        <link rel="shortcut icon" href="<?=env('APP_FAVICON', asset('theme/assets/images/favicon.ico'))?>">
 
         <!-- Daterangepicker css -->
         <link rel="stylesheet" href="<?=asset('theme/assets/vendor/daterangepicker/daterangepicker.css')?>">
