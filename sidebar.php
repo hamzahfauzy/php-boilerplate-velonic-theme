@@ -35,7 +35,7 @@
                         <a 
                             class="side-nav-link <?=getActive() == $menu['activeState'] ? 'active' : ''?>"
                             <?php if(isset($menu['items'])) : ?>
-                            data-bs-toggle="collapse" href="#sidebar<?=$key?>" aria-expanded="false" aria-controls="sidebar<?=$key?>" 
+                            data-bs-toggle="collapse" href="#sidebar<?=$key?>-<?=$k?>" aria-expanded="false" aria-controls="sidebar-<?=$key?>-<?=$k?>" 
                             <?php else: ?>
                             href="<?=$menu['route'] ?>" 
                             <?php endif ?>
@@ -48,7 +48,7 @@
                         </a>
 
                         <?php if(isset($menu['items'])): ?>
-                        <div class="collapse" id="sidebar<?=$key?>">
+                        <div class="collapse" id="sidebar<?=$key?>-<?=$k?>">
                             <ul class="side-nav-second-level">
                                 <?php if(isset($menu['items'])) foreach($menu['items'] as $item): ?>
                                 <li>
