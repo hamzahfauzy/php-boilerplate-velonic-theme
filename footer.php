@@ -10,7 +10,7 @@
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-12 text-center">
-                                <script>document.write(new Date().getFullYear())</script> © Vendor Name
+                                Copyright &copy; <?= date('Y') ?>
                             </div>
                         </div>
                     </div>
